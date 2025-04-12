@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "ReactNative",
+    "slug": "ReactNative",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/adaptive-icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/custom-splash.png",
+      "resizeMode": "cover",
+      "width": 500,
+      "backgroundColor": "#ffffff"
+    },
+
+    "newArchEnabled": true,
+    "jsEngine": "hermes",
+    "ios": {
+      "supportsTablet": true,
+      "jsEngine": "jsc"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/custom-splash.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/custom-splash.png",
+          "resizeMode": "cover",
+          "width": 500,
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}

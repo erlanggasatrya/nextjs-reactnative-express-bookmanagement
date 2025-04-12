@@ -1,0 +1,61 @@
+{
+  "name": "express_erlangga-satrya_batch12",
+  "version": "1.0.0",
+  "description": "To make it easy for you to get started with GitLab, here's a list of recommended next steps.",
+  "scripts": {
+    "dev": "nodemon src/app.ts",
+    "build": "tsc",
+    "start": "node ./dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "prisma": {
+    "schema": "src/prisma/schema.prisma",
+    "seed": "ts-node src/prisma/seed.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/bootcamp-batch-13/express_erlangga-satrya_batch12.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://gitlab.com/bootcamp-batch-13/express_erlangga-satrya_batch12/issues"
+  },
+  "homepage": "https://gitlab.com/bootcamp-batch-13/express_erlangga-satrya_batch12#readme",
+  "dependencies": {
+    "@prisma/client": "^6.4.1",
+    "@types/cookie-parser": "^1.4.8",
+    "@types/multer": "^1.4.12",
+    "@types/nodemailer": "^6.4.17",
+    "bcryptjs": "^3.0.2",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "errors": "^0.3.0",
+    "express": "^4.21.2",
+    "express-validator": "^7.2.1",
+    "fs": "^0.0.1-security",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "kafkajs": "^2.2.4",
+    "multer": "^1.4.5-lts.1",
+    "node-cron": "^3.0.3",
+    "node-redis": "^0.1.7",
+    "nodemailer": "^6.10.0",
+    "nodemon": "^3.1.9",
+    "prisma": "^6.4.1",
+    "redis": "^4.7.0"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/jsonwebtoken": "^9.0.9",
+    "@types/node": "^22.13.9",
+    "@types/node-cron": "^3.0.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}
